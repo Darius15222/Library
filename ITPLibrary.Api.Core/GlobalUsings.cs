@@ -1,0 +1,13 @@
+﻿global using AutoMapper;
+global using ITPLibrary.Data.Shared.Entities;
+global using ITPLibrary.Data.Shared.Constants;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.IdentityModel.Tokens;
+global using System.ComponentModel.DataAnnotations;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Net;
+global using System.Net.Mail;
+global using System.Security.Claims;
+global using System.Text;
+global using ITPLibrary.Api.Core.Services.Interfaces;
+global using ITPLibrary.Data.Shared;
